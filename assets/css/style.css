@@ -173,6 +173,7 @@ background: #FFF;
 }
 .box_2:hover{
   border: 2px solid red;
+  transition: all 400ms linear;
 }
 .pt_79{
   padding-top: 79px;
@@ -316,7 +317,7 @@ height: 230px;
 flex-shrink: 0;
 border-radius: 10px;
 
-border: 2px solid #DDD;
+border: 2px solid #E1E1E1;
 }
 .card_1:hover{
   border-radius: 10px;
@@ -410,7 +411,7 @@ flex-shrink: 0;
 }
 .position_absolute_1 {
     position: absolute;
-    top: 72%;
+    top: 83%;
     right: 7%;
   } 
   .bg-linear-gradient {
@@ -628,6 +629,13 @@ background-color: red;
   height: 100%;
   min-height: 1px;
 }
+.circle_1{
+  width: 33.6px;
+height: 33.6px;
+flex-shrink: 0;
+background-color: white;
+border-radius: 50%;
+}
 @media (max-width:1200px) {
     label[for="icon"] {
       height: 30px;
@@ -700,7 +708,7 @@ padding-top: 30px;
  } 
  
 .pt_130{
-  padding-top: 30px;
+  padding-top: 71px;
 }
 
 .pt_80{
@@ -755,11 +763,12 @@ padding-left: 33px;
 .pt_63{
 padding-top: 27px;
 }
-}
-@media (min-width:320px) {
+} 
+@media (max-width: 1440px) {
+  
   .position_absolute_1 {
-    position: absolute;
-    top: 86%;
-    right: 21%;
-}  
+      position: absolute;
+      top: 83%;
+      right: 16%;
+  }  
 }
